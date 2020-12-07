@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+.App {
+  font-family: "Baloo Bhai 2", cursive;
+  text-align: center;
+  background-color: #98fb98;
+  width: 100%;
+  height: 100%;
+}
+.appTitle {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #98fb98;
+}
+.section-one {
+  display: flex;
+  flex-direction: column;
+  float: bottom;
+}
+.extra {
+  padding: 6rem;
+}
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 50px;
+  padding: 0rem;
+  margin: 0rem;
+}
+header {
+  background-color: #7b8b9a;
+  padding: 1rem 1rem;
+  text-align: left;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  font-size: 25px;
+}
+a:hover {
+  color: #98fb98;
+}
+h3 {
+  font-size: 30px;
+  padding: 1rem;
+  margin: 0rem;
+}
+input {
+  padding: 1rem;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+input:focus {
+  outline: none;
+  border: 3px solid rgb(192, 190, 190);
+}
+.result {
+  font-size: 25px;
+  padding: 1rem 0rem 0rem 0rem;
+}
+.listDisplay {
+  margin: auto;
+  width: 50%;
+}
+.list {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+#byCat {
+  padding-bottom: 5rem;
+  text-align: center;
+}
+select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+select:hover {
+  outline: none;
+}
+option {
+  background-color: #98fb98;
+}
+hr.style-five {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+  margin: 2rem;
+}
+hr.style-five:after {
+  content: "\00a0";
+}
